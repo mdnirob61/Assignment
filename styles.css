@@ -238,3 +238,47 @@ hr {
     cursor: pointer;
     white-space: nowrap;
 }
+
+footer{
+    background-color: #0D1B2A;
+    margin-top: 50px;
+}
+
+footer section{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 6%;
+}
+
+.foot-1{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.footer-link{
+    font-size: 25px;
+}
+
+footer hr{
+    color: #7d7f83;
+    margin: 0px 30px;
+}
+
+footer div{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 6%;
+    color: #FFFFFF;
+    font-size: 10px;
+}
+
+footer div .foot-2{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    list-style: none;
+    text-decoration: none;
+}
