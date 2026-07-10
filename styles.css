@@ -1,0 +1,73 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Inter";
+    font-optical-sizing: auto;
+    font-weight: weight;
+    /* font-style: normal; */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    padding: 20px 6%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+    gap: 15px;
+    color: #575757;
+}
+
+.btn {
+    color: white;
+    background-color: #1D4ED8;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.banner{
+    background-image:   linear-gradient(
+            to right,
+            rgba(0, 0, 0, 0.9) 0%,
+            rgba(0, 0, 0, 0.8) 30%,
+            rgba(0, 0, 0, 0.3) 60%,
+            rgba(0, 0, 0, 0) 100%
+        ),url('./assets/banner.jpg');
+    height: 110vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center -120px;
+}
+
+.banner div{
+    text-align: center;
+    padding:150px ;
+}
+
+.banner h1{
+    font-size: 60px;
+    color: white;
+}
+.banner p{
+    color: white; 
+    padding: 15px;   
+    max-width: 50%;
+    margin: 1px auto;
+}
+
+.banner .btn{
+    position: absolute;
+    margin-bottom: -120px;
+    bottom: 30px;
+    left: 42%;
+    padding: 20px 50px;
+}
