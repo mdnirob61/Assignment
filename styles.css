@@ -14,7 +14,7 @@ nav {
     padding: 20px 6%;
 }
 
-ul {
+nav ul {
     display: flex;
     justify-content: space-between;
     list-style: none;
@@ -33,41 +33,128 @@ ul {
     cursor: pointer;
 }
 
-.banner{
-    background-image:   linear-gradient(
-            to right,
+.banner {
+    background-image: linear-gradient(to right,
             rgba(0, 0, 0, 0.9) 0%,
             rgba(0, 0, 0, 0.8) 30%,
             rgba(0, 0, 0, 0.3) 60%,
-            rgba(0, 0, 0, 0) 100%
-        ),url('./assets/banner.jpg');
+            rgba(0, 0, 0, 0) 100%), url('./assets/banner.jpg');
     height: 110vh;
     width: 100%;
     background-size: cover;
     background-position: center -120px;
 }
 
-.banner div{
+.banner div {
     text-align: center;
-    padding:150px ;
+    padding: 150px;
 }
 
-.banner h1{
+.banner h1 {
     font-size: 60px;
     color: white;
 }
-.banner p{
-    color: white; 
-    padding: 15px;   
+
+.banner p {
+    color: white;
+    padding: 15px;
     max-width: 50%;
     margin: 1px auto;
 }
 
-.banner .btn{
+.banner .btn {
     position: absolute;
     margin-bottom: -110px;
     text-align: center;
     bottom: 30px;
     left: 42%;
     padding: 18px 50px;
+}
+
+.speaker {
+    text-align: center;
+    margin: 70px auto;
+    padding: 0px 50px;
+}
+
+.speaker h1 {
+    font-size: 50px;
+}
+
+.speaker-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 50px;
+}
+
+.speaker-card {
+    border: 0.5px solid #E5E7EB;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    overflow: hidden;
+}
+
+.speaker-img {
+    display: block;
+    width: 100%;
+}
+
+.speaker-text {
+    text-align: left;
+    padding: 30px;
+}
+
+.category {
+    color: #2563EB;
+    padding-bottom: 8px;
+    font-weight: 600;
+}
+
+.speaker-text h2 {
+    padding-bottom: 8px;
+    color: #0D1B2A;
+}
+
+.title {
+    color: #575757;
+    font-weight: 400;
+}
+
+.spot {
+    text-align: center;
+}
+
+.spot h2 {
+    font-size: 40px;
+    padding-bottom: 13px;
+}
+
+.head-p {
+    color: #575757;
+    font-size: 13px;
+    padding-bottom: 30px;
+}
+
+.spot-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin: 0px 200px;
+}
+
+.card-container {
+    border: 0.5px solid #E5E7EB;
+    border-radius: 10px;
+    padding: 50px;
+    text-align: left;
+}
+
+.card-container h6{
+    padding: 6px;
+}
+
+.card-container ul {
+    padding-left: 20px;
+    margin-top: 15px;
 }
