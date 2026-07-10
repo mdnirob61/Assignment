@@ -65,8 +65,9 @@ ul {
 
 .banner .btn{
     position: absolute;
-    margin-bottom: -120px;
+    margin-bottom: -110px;
+    text-align: center;
     bottom: 30px;
     left: 42%;
-    padding: 20px 50px;
+    padding: 18px 50px;
 }
