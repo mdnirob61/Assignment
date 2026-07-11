@@ -141,7 +141,7 @@ nav ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
-    margin: 0px 200px;
+    margin: 0px 170px;
 }
 
 .card-container {
@@ -218,12 +218,12 @@ hr {
 }
 
 .two-btn {
-    margin: 5px auto;
+    margin: 5px 10px;
     border: 1px solid #0D1B2A;
     border-radius: 10px;
     color: #0D1B2A;
     background-color: white;
-    padding: 8px 70px;
+    padding: 8px 80px;
     font-size: 13px;
     font-weight: bold;
     cursor: pointer;
