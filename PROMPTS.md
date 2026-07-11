@@ -1,0 +1,4 @@
+I am building a devconference website with html and css as a beginner.There are many sections like navbar,banner,the speakers and their info section, and etc.Now you suggest me a section with better design which will fit visually with my page like Sponsors, Venue, FAQ, Newsletter Signup, Hackathon Details, Past Highlights, Job Board etc..So suggest me a section to design it with html and css as a beginner. 
+After this prompt, chatgpt gave me a structure of EVENT SCHEDULE.
+Then I told-
+I want to design event schedule section.Give me the layouts and colors for better design.Actually you can draw it for me.
